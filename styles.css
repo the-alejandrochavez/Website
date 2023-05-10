@@ -1,3 +1,7 @@
+body {
+    background-color: black;
+}
+
 nav {
     display: flex;
     justify-content: flex-start;
@@ -21,9 +25,23 @@ nav {
     background-color: black;
 }
 
-h1,
+h1 {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px 100px;
+    color: white;
+}
+
 h2,
 h3 {
     text-align: center;
     font-family: 'Courier New', Courier, monospace;
+    margin: 30px 75px;
+    color: white;
+}
+
+p,
+ul {
+    color: white;
+    margin: auto 50px;
 }
