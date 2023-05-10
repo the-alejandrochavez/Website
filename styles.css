@@ -1,0 +1,21 @@
+nav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: red;
+}
+
+.navbar {
+    background-color: red;
+    padding: 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navbar:hover {
+    background-color: crimson;
+}
+
+.active-page {
+    background-color: black;
+}
