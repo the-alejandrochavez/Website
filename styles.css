@@ -68,3 +68,26 @@ img {
     grid-template-columns: auto auto auto;
     grid-gap: 10px;
 }
+
+form {
+    color: white;
+}
+
+.single,
+.multiple,
+button,
+input {
+    padding: 10px;
+    font-size: 25px;
+}
+
+.bio {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    font-size: 25px;
+}
+
+.button {
+    text-align: center;
+}

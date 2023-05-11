@@ -20,16 +20,16 @@
     <form action="/results.php" method="post">
         <fieldset>
             <legend>Favorite Player</legend>
-            <div>
-                <label for="firstName">Your first name</label>
+            <div class="single">
+                <label for="firstName">Your First Name: </label>
                 <input type="text" name="fname" id="firstName">
             </div>
-            <div>
-                <label for="name">Favorite Player</label>
+            <div class="single">
+                <label for="name">Favorite Player: </label>
                 <input type="text" name="fav_name" id="name">
             </div>
-            <div>
-                <p>Reasons why he is your favorite player:</p>
+            <div class="multiple">
+                <h4>Reasons why he is your favorite player:</h4>
                 <input type="checkbox" name="goal" id="goal">
                 <label for="goal">Goalscoring machine</label>
                 <br>
@@ -45,11 +45,11 @@
                 <input type="checkbox" name="mid" id="mid">
                 <label for="mid">Playmaker</label>
             </div>
-            <div>
+            <div class="bio">
                 <label for="cris">Why is Cristiano Ronaldo your favorite?</label>
                 <textarea name="" id="cris" cols="30" rows="10"></textarea>
             </div>
-            <div>
+            <div class="button">
                 <button type="submit">Submit</button>
             </div>
         </fieldset>
