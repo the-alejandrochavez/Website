@@ -1,1 +1,2 @@
 # Website
+This project is just to work on my HTML and CSS coding. I created a website about my favorite team, Manchester United. I created 4 pages, that can be accessed with the navigation bar. The 4 pages is the home, form, other websites, and players page. The home page includes some information about the team. The form page was created to implement my skill when it comes to building forms. The other website page was created to implement my skill on creating links. The players page was created to implement images that act as links.
